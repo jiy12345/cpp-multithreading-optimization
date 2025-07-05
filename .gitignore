@@ -1,0 +1,52 @@
+# 빌드 디렉토리
+build/
+out/
+bin/
+obj/
+
+# CMake 생성 파일
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+Makefile
+
+# 실행 파일
+*.exe
+*.out
+*.app
+
+# 오브젝트 파일
+*.o
+*.obj
+
+# 라이브러리 파일
+*.a
+*.lib
+*.so
+*.dll
+*.dylib
+
+# Visual Studio 파일
+.vs/
+*.vcxproj
+*.vcxproj.filters
+*.vcxproj.user
+*.sln
+
+# IDE 파일
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# 로그 파일
+*.log
+
+# 임시 파일
+*.tmp
+*.temp
+
+# OS 생성 파일
+.DS_Store
+Thumbs.db 
