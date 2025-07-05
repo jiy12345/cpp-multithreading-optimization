@@ -19,14 +19,12 @@ find_package(Threads REQUIRED)
 set(SOURCES
     src/main.cpp
     src/thread_pool.cpp
-    src/work_stealing_queue.cpp
     src/benchmark.cpp
 )
 
 # 헤더 파일들
 set(HEADERS
     include/thread_pool.h
-    include/work_stealing_queue.h
     include/benchmark.h
 )
 
